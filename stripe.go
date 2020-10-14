@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stripe/stripe-go/form"
+	"github.com/fatsoma/tabb-stripe-go/form"
 )
 
 //

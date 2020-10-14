@@ -123,8 +123,8 @@ To use a key, pass it to `API`'s `Init` function:
 ```go
 
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/fatsoma/tabb-stripe-go"
+	"github.com/fatsoma/tabb-stripe-go/client"
 )
 
 stripe := &client.API{}
@@ -145,8 +145,8 @@ import (
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/urlfetch"
 
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/fatsoma/tabb-stripe-go"
+	"github.com/fatsoma/tabb-stripe-go/client"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -182,8 +182,8 @@ client.
 
 ```go
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/$resource$"
+	"github.com/fatsoma/tabb-stripe-go"
+	"github.com/fatsoma/tabb-stripe-go/$resource$"
 )
 
 // Setup
@@ -222,8 +222,8 @@ individual key.
 
 ```go
 import (
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/client"
+	"github.com/fatsoma/tabb-stripe-go"
+	"github.com/fatsoma/tabb-stripe-go/client"
 )
 
 // Setup

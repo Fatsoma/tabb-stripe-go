@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/fatsoma/tabb-stripe-go/form"
 	assert "github.com/stretchr/testify/require"
-	"github.com/stripe/stripe-go/form"
 )
 
 func TestPlanListParams_AppendTo(t *testing.T) {

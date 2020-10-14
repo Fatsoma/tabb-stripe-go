@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	stripe "github.com/fatsoma/tabb-stripe-go"
-	"github.com/stripe/stripe-go/form"
+	"github.com/fatsoma/tabb-stripe-go/form"
 )
 
 // Client is used to invoke file upload APIs.

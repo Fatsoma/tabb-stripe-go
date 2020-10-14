@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	stripe "github.com/fatsoma/tabb-stripe-go"
+	"github.com/fatsoma/tabb-stripe-go/form"
+	. "github.com/fatsoma/tabb-stripe-go/testing"
 	assert "github.com/stretchr/testify/require"
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/form"
-	. "github.com/stripe/stripe-go/testing"
 )
 
 func TestRangeQueryParamsAppendTo(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stripe/stripe-go"
+	stripe "github.com/fatsoma/tabb-stripe-go"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/fatsoma/tabb-stripe-go/form"
 	assert "github.com/stretchr/testify/require"
-	"github.com/stripe/stripe-go/form"
 )
 
 func TestAccountExternalAccountParams_AppendTo(t *testing.T) {

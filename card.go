@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/stripe/stripe-go/form"
+	"github.com/fatsoma/tabb-stripe-go/form"
 )
 
 // CardBrand is the list of allowed values for the card's brand.
