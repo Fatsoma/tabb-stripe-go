@@ -11,9 +11,9 @@ import (
 	"sync"
 	"testing"
 
+	stripe "github.com/fatsoma/tabb-stripe-go"
+	. "github.com/fatsoma/tabb-stripe-go/testing"
 	assert "github.com/stretchr/testify/require"
-	stripe "github.com/stripe/stripe-go"
-	. "github.com/stripe/stripe-go/testing"
 )
 
 func TestBearerAuth(t *testing.T) {

@@ -3,8 +3,8 @@ package discount
 import (
 	"testing"
 
+	_ "github.com/fatsoma/tabb-stripe-go/testing"
 	assert "github.com/stretchr/testify/require"
-	_ "github.com/stripe/stripe-go/testing"
 )
 
 func TestDiscountDel(t *testing.T) {

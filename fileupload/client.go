@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stripe/stripe-go/form"
-	stripe "github.com/tabbgroup/stripe-go"
+	stripe "github.com/fatsoma/tabb-stripe-go"
+	"github.com/fatsoma/tabb-stripe-go/form"
 )
 
 // Client is used to invoke file upload APIs.

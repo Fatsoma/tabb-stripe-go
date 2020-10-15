@@ -3,9 +3,9 @@ package refund
 import (
 	"testing"
 
+	stripe "github.com/fatsoma/tabb-stripe-go"
+	_ "github.com/fatsoma/tabb-stripe-go/testing"
 	assert "github.com/stretchr/testify/require"
-	stripe "github.com/stripe/stripe-go"
-	_ "github.com/stripe/stripe-go/testing"
 )
 
 func TestRefundGet(t *testing.T) {
